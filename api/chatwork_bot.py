@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-CHATWORK_API_TOKEN = os.getenv('CHATWORK_API_TOKEN')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-CHATWORK_ROOM_ID = os.getenv('CHATWORK_ROOM_ID')
+CHATWORK_API_TOKEN = os.getenv('CHATWORK_API_TOKENS')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEYS')
+CHATWORK_ROOM_ID = os.getenv('CHATWORK_ROOM_IDS')
 
 openai.api_key = OPENAI_API_KEY
 
